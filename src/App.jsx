@@ -39,8 +39,8 @@ const App = () => {
               onClick={() => handleClick(index)}
               className={` h-full rounded-2xl cursor-pointer overflow-hidden ${
                 storeImage === index
-                  ? "w-[60%] opacity-100"
-                  : "w-[10%] opacity-50"
+                  ? "w-[60%] opacity-150"
+                  : "w-[10%] opacity-100"
               } `}
             >
               <img
